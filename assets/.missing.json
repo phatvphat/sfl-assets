@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Light Brown Worried Farmer Potion",
+    "collection": "wearables",
+    "id": 118,
+    "reason": "No local wearable file for id 118"
+  },
+  {
+    "name": "Traveller's Backpack",
+    "collection": "wearables",
+    "id": 152,
+    "reason": "No local wearable file for id 152"
+  },
+  {
+    "name": "Traveller's Pants",
+    "collection": "wearables",
+    "id": 153,
+    "reason": "No local wearable file for id 153"
+  },
+  {
+    "name": "Traveller's Shirt",
+    "collection": "wearables",
+    "id": 154,
+    "reason": "No local wearable file for id 154"
+  },
+  {
+    "name": "Mermaid Potion",
+    "collection": "wearables",
+    "id": 242,
+    "reason": "No local wearable file for id 242"
+  },
+  {
+    "name": "Squirrel Monkey Potion",
+    "collection": "wearables",
+    "id": 243,
+    "reason": "No local wearable file for id 243"
+  },
+  {
+    "name": "Golden Seedling",
+    "collection": "wearables",
+    "id": 484,
+    "reason": "No local wearable file for id 484"
+  },
+  {
+    "name": "Big Wink Eyes",
+    "collection": "wearables",
+    "id": 539,
+    "reason": "No local wearable file for id 539"
+  },
+  {
+    "name": "Giggle Eyes",
+    "collection": "wearables",
+    "id": 541,
+    "reason": "No local wearable file for id 541"
+  },
+  {
+    "name": "Grumpy Eyes",
+    "collection": "wearables",
+    "id": 542,
+    "reason": "No local wearable file for id 542"
+  },
+  {
+    "name": "Relaxed Eyes",
+    "collection": "wearables",
+    "id": 543,
+    "reason": "No local wearable file for id 543"
+  },
+  {
+    "name": "Scared Eyes",
+    "collection": "wearables",
+    "id": 544,
+    "reason": "No local wearable file for id 544"
+  },
+  {
+    "name": "Surprised Eyes",
+    "collection": "wearables",
+    "id": 545,
+    "reason": "No local wearable file for id 545"
+  },
+  {
+    "name": "Wink Eyes",
+    "collection": "wearables",
+    "id": 546,
+    "reason": "No local wearable file for id 546"
+  },
+  {
+    "name": "Angry Mouth",
+    "collection": "wearables",
+    "id": 548,
+    "reason": "No local wearable file for id 548"
+  },
+  {
+    "name": "Baby Teeth",
+    "collection": "wearables",
+    "id": 549,
+    "reason": "No local wearable file for id 549"
+  },
+  {
+    "name": "Big Smile",
+    "collection": "wearables",
+    "id": 550,
+    "reason": "No local wearable file for id 550"
+  },
+  {
+    "name": "Fanged Smile",
+    "collection": "wearables",
+    "id": 551,
+    "reason": "No local wearable file for id 551"
+  },
+  {
+    "name": "Gold Teeth",
+    "collection": "wearables",
+    "id": 552,
+    "reason": "No local wearable file for id 552"
+  },
+  {
+    "name": "Infernal Smile",
+    "collection": "wearables",
+    "id": 553,
+    "reason": "No local wearable file for id 553"
+  }
+]

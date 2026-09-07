@@ -1,0 +1,23 @@
+{
+  "name": "sfl-assets",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "description": "Sync clean Sunflower Land icons (collectibles, wearables, consumables) into a static asset host",
+  "scripts": {
+    "sync": "tsx src/cli.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0"
+  }
+}
