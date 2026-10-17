@@ -47,15 +47,18 @@ function resolveImageExpr(
 ): ImageRef | null {
   const e = expr.trim().replace(/,$/, "").trim();
 
+  // `.Parsnip.crop` or `["Crystal Leaf"].seed`
   const crop = e.match(
-    /^CROP_LIFECYCLE\[["']Basic Biome["']\]\.(\w+)\.(crop|seed)$/,
+    /^CROP_LIFECYCLE\[["']Basic Biome["']\](?:\.(\w+)|\[["']([^"']+)["']\])\.(crop|seed)$/,
   );
   if (crop) {
-    const slug = cropSlugs[crop[1]];
+    const cropName = crop[1] ?? crop[2];
+    const part = crop[3] as "crop" | "seed";
+    const slug = cropName ? cropSlugs[cropName] : undefined;
     if (!slug) return null;
     return {
       kind: "url",
-      url: `${PROTECTED_IMAGE_URL}/crops/${slug}/${crop[2]}.png`,
+      url: `${PROTECTED_IMAGE_URL}/crops/${slug}/${part}.png`,
     };
   }
 

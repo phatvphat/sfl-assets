@@ -18,7 +18,6 @@ import {
   parseCollectibleImages,
   resolveWearableImage,
 } from "./parse/images.js";
-import { byIdAsc } from "./parse/util.js";
 import {
   deleteIdAssets,
   ensureDir,
@@ -27,6 +26,9 @@ import {
   type MissingEntry,
 } from "./sync/download.js";
 import {
+  assertMetadataCoverage,
+  orderMetadata,
+  putEntry,
   writeMetadata,
   writeMissing,
   type Metadata,
@@ -66,10 +68,20 @@ async function main() {
     ([name]) => !consumableNames.has(name),
   );
   const wearableJobs = Object.entries(itemIds);
+  const collisions = new Set(
+    collectibleJobs
+      .map(([name]) => name)
+      .filter((name) => name in itemIds),
+  );
 
   console.log(
     `Parsed ${collectibleJobs.length} collectibles, ${wearableJobs.length} wearables, ${consumableJobs.length} consumables`,
   );
+  if (collisions.size > 0) {
+    console.log(
+      `Name collisions (${collisions.size}): ${[...collisions].sort().join(", ")}`,
+    );
+  }
 
   await Promise.all([
     ensureDir(COLLECTIBLES_DIR),
@@ -106,12 +118,17 @@ async function main() {
       missing,
       noRefReason: unresolvedImageReason(images, name),
     });
-    metadata[name] = {
-      collection: "collectibles",
-      id,
-      image,
-      boost: buffs.collectibles[name] ?? null,
-    };
+    putEntry(
+      metadata,
+      name,
+      {
+        collection: "collectibles",
+        id,
+        image,
+        boost: buffs.collectibles[name] ?? null,
+      },
+      collisions,
+    );
   });
 
   await mapPool(wearableJobs, CONCURRENCY, async ([name, id]) => {
@@ -125,22 +142,33 @@ async function main() {
       missing,
       noRefReason: `No local wearable file for id ${id}`,
     });
-    metadata[name] = {
-      collection: "wearables",
-      id,
-      image,
-      boost: buffs.wearables[name] ?? null,
-    };
+    putEntry(
+      metadata,
+      name,
+      {
+        collection: "wearables",
+        id,
+        image,
+        boost: buffs.wearables[name] ?? null,
+      },
+      collisions,
+    );
   });
 
-  const ordered: Metadata = {};
-  for (const [name] of [
-    ...collectibleJobs.sort(byIdAsc),
-    ...consumableJobs.sort(byIdAsc),
-    ...wearableJobs.sort(byIdAsc),
-  ]) {
-    ordered[name] = metadata[name];
-  }
+  assertMetadataCoverage(
+    metadata,
+    collectibleJobs,
+    wearableJobs,
+    collisions,
+  );
+
+  const ordered = orderMetadata(
+    metadata,
+    collectibleJobs,
+    consumableJobs,
+    wearableJobs,
+    collisions,
+  );
 
   await writeMetadata(ordered);
   await writeMissing(missing);

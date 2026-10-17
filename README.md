@@ -45,6 +45,13 @@ Look up by **item name**:
 - **collectibles / wearables:** `collection`, `id`, `image`, `boost` (`null` or `string[]`)
 - **consumables:** only `image` (numeric id is in the filename under `assets/consumables/`)
 
+When the same display name exists as both a collectible and a wearable (e.g. `Parsnip`), metadata keeps **both** under qualified keys only:
+
+- `"Parsnip (collectibles)"` / `"Parsnip (wearables)"`
+- no bare `"Parsnip"` key (object keys must be unique)
+
+After sync, coverage is asserted: every source item must appear under the expected key with matching `collection` + `id`.
+
 Serve images as `{baseUrl}/{image}`.
 
 ## Requirements

@@ -299,13 +299,11 @@
     "image": "collectibles/207.png",
     "boost": null
   },
-  "Parsnip": {
-    "collection": "wearables",
-    "id": 56,
-    "image": "wearables/56.webp",
-    "boost": [
-      "+20% Parsnip"
-    ]
+  "Parsnip (collectibles)": {
+    "collection": "collectibles",
+    "id": 208,
+    "image": "collectibles/208.png",
+    "boost": null
   },
   "Radish": {
     "collection": "collectibles",
@@ -787,10 +785,10 @@
     "image": "collectibles/288.webp",
     "boost": null
   },
-  "Axe": {
-    "collection": "wearables",
-    "id": 44,
-    "image": "wearables/44.webp",
+  "Axe (collectibles)": {
+    "collection": "collectibles",
+    "id": 301,
+    "image": "collectibles/301.png",
     "boost": null
   },
   "Pickaxe": {
@@ -811,10 +809,10 @@
     "image": "collectibles/304.png",
     "boost": null
   },
-  "Hammer": {
-    "collection": "wearables",
-    "id": 64,
-    "image": "wearables/64.webp",
+  "Hammer (collectibles)": {
+    "collection": "collectibles",
+    "id": 305,
+    "image": "collectibles/305.png",
     "boost": null
   },
   "Rod": {
@@ -987,14 +985,11 @@
     "image": "collectibles/412.png",
     "boost": null
   },
-  "Goblin Crown": {
-    "collection": "wearables",
-    "id": 377,
-    "image": "wearables/377.webp",
-    "boost": [
-      "+25% FLOWER & Coin Deliveries",
-      "+10% Marks"
-    ]
+  "Goblin Crown (collectibles)": {
+    "collection": "collectibles",
+    "id": 413,
+    "image": "collectibles/413.png",
+    "boost": null
   },
   "Fountain": {
     "collection": "collectibles",
@@ -1629,6 +1624,7 @@
     "id": 495,
     "image": "collectibles/495.webp",
     "boost": [
+      "2x Growth Speed in Greenhouse",
       "x0.5 Growth Time in Greenhouse"
     ]
   },
@@ -1725,7 +1721,7 @@
   "Pig": {
     "collection": "collectibles",
     "id": 608,
-    "image": "collectibles/608.png",
+    "image": "collectibles/608.webp",
     "boost": null
   },
   "Sheep": {
@@ -2919,10 +2915,10 @@
     "image": "collectibles/913.png",
     "boost": null
   },
-  "Ancient Goblin Sword": {
-    "collection": "wearables",
-    "id": 77,
-    "image": "wearables/77.webp",
+  "Ancient Goblin Sword (collectibles)": {
+    "collection": "collectibles",
+    "id": 914,
+    "image": "collectibles/914.png",
     "boost": null
   },
   "Ancient Human Warhammer": {
@@ -3281,82 +3277,82 @@
     "image": "collectibles/1026.webp",
     "boost": null
   },
-  "Chef Apron": {
-    "collection": "wearables",
-    "id": 16,
-    "image": "wearables/16.webp",
-    "boost": [
-      "+20% Cake Delivery Profit"
-    ]
-  },
-  "Chef Hat": {
-    "collection": "wearables",
-    "id": 25,
-    "image": "wearables/25.webp",
+  "Pigpen": {
+    "collection": "collectibles",
+    "id": 1027,
+    "image": "collectibles/1027.png",
     "boost": null
   },
-  "Sunflower Amulet": {
-    "collection": "wearables",
-    "id": 27,
-    "image": "wearables/27.webp",
-    "boost": [
-      "+10% Sunflower"
-    ]
-  },
-  "Carrot Amulet": {
-    "collection": "wearables",
-    "id": 28,
-    "image": "wearables/28.webp",
-    "boost": [
-      "x0.8 Carrot Plot Growth time"
-    ]
-  },
-  "Beetroot Amulet": {
-    "collection": "wearables",
-    "id": 29,
-    "image": "wearables/29.webp",
-    "boost": [
-      "+20% Beetroot"
-    ]
-  },
-  "Green Amulet": {
-    "collection": "wearables",
-    "id": 30,
-    "image": "wearables/30.webp",
-    "boost": [
-      "Chance 10x Crops"
-    ]
-  },
-  "Warrior Shirt": {
-    "collection": "wearables",
-    "id": 17,
-    "image": "wearables/17.webp",
+  "Cave": {
+    "collection": "collectibles",
+    "id": 1028,
+    "image": "collectibles/1028.webp",
     "boost": null
   },
-  "Warrior Helmet": {
-    "collection": "wearables",
-    "id": 26,
-    "image": "wearables/26.webp",
+  "Chef Apron (collectibles)": {
+    "collection": "collectibles",
+    "id": 1101,
+    "image": "collectibles/1101.png",
     "boost": null
   },
-  "Warrior Pants": {
-    "collection": "wearables",
-    "id": 21,
-    "image": "wearables/21.webp",
+  "Chef Hat (collectibles)": {
+    "collection": "collectibles",
+    "id": 1102,
+    "image": "collectibles/1102.png",
     "boost": null
   },
-  "Sunflower Shield": {
-    "collection": "wearables",
-    "id": 31,
-    "image": "wearables/31.webp",
-    "boost": [
-      "Free Sunflower Seeds"
-    ]
+  "Sunflower Amulet (collectibles)": {
+    "collection": "collectibles",
+    "id": 1103,
+    "image": "collectibles/1103.png",
+    "boost": null
   },
-  "Skull Hat": {
-    "collection": "wearables",
-    "id": 79,
-    "image": "wearables/79.webp",
+  "Carrot Amulet (collectibles)": {
+    "collection": "collectibles",
+    "id": 1104,
+    "image": "collectibles/1104.png",
+    "boost": null
+  },
+  "Beetroot Amulet (collectibles)": {
+    "collection": "collectibles",
+    "id": 1105,
+    "image": "collectibles/1105.png",
+    "boost": null
+  },
+  "Green Amulet (collectibles)": {
+    "collection": "collectibles",
+    "id": 1106,
+    "image": "collectibles/1106.png",
+    "boost": null
+  },
+  "Warrior Shirt (collectibles)": {
+    "collection": "collectibles",
+    "id": 1107,
+    "image": "collectibles/1107.png",
+    "boost": null
+  },
+  "Warrior Helmet (collectibles)": {
+    "collection": "collectibles",
+    "id": 1108,
+    "image": "collectibles/1108.png",
+    "boost": null
+  },
+  "Warrior Pants (collectibles)": {
+    "collection": "collectibles",
+    "id": 1109,
+    "image": "collectibles/1109.png",
+    "boost": null
+  },
+  "Sunflower Shield (collectibles)": {
+    "collection": "collectibles",
+    "id": 1110,
+    "image": "collectibles/1110.png",
+    "boost": null
+  },
+  "Skull Hat (collectibles)": {
+    "collection": "collectibles",
+    "id": 1111,
+    "image": "collectibles/1111.png",
     "boost": null
   },
   "War Skull": {
@@ -7071,6 +7067,7 @@
     "id": 2650,
     "image": "collectibles/2650.webp",
     "boost": [
+      "1.35x Crafting Box Speed",
       "x0.75 Crafting Box Time",
       "10% chance to instantly craft a recipe"
     ]
@@ -7145,6 +7142,7 @@
     "boost": [
       "1.5x Greenhouse Growth Speed",
       "x0.67 Greenhouse Growth Time",
+      "1.11x Crop Machine Growth Speed",
       "x0.9 Crop Machine Growth Time"
     ]
   },
@@ -8307,6 +8305,92 @@
     "image": "collectibles/3083.png",
     "boost": null
   },
+  "Green Beetle": {
+    "collection": "collectibles",
+    "id": 3084,
+    "image": "collectibles/3084.webp",
+    "boost": null
+  },
+  "Blue Beetle": {
+    "collection": "collectibles",
+    "id": 3085,
+    "image": "collectibles/3085.webp",
+    "boost": null
+  },
+  "Pink Beetle": {
+    "collection": "collectibles",
+    "id": 3086,
+    "image": "collectibles/3086.webp",
+    "boost": null
+  },
+  "Amber Beetle": {
+    "collection": "collectibles",
+    "id": 3087,
+    "image": "collectibles/3087.webp",
+    "boost": null
+  },
+  "Mud": {
+    "collection": "collectibles",
+    "id": 3088,
+    "image": "collectibles/3088.webp",
+    "boost": null
+  },
+  "Pig Bristles": {
+    "collection": "collectibles",
+    "id": 3089,
+    "image": "collectibles/3089.webp",
+    "boost": null
+  },
+  "Truffle": {
+    "collection": "collectibles",
+    "id": 3090,
+    "image": "collectibles/3090.webp",
+    "boost": null
+  },
+  "Crystal Leaf": {
+    "collection": "collectibles",
+    "id": 3091,
+    "image": "collectibles/3091.png",
+    "boost": null
+  },
+  "Crystal Leaf Seed": {
+    "collection": "collectibles",
+    "id": 3092,
+    "image": "collectibles/3092.png",
+    "boost": null
+  },
+  "Basic Slop": {
+    "collection": "collectibles",
+    "id": 3094,
+    "image": "collectibles/3094.webp",
+    "boost": null
+  },
+  "Hearty Slop": {
+    "collection": "collectibles",
+    "id": 3095,
+    "image": "collectibles/3095.webp",
+    "boost": null
+  },
+  "Rich Slop": {
+    "collection": "collectibles",
+    "id": 3096,
+    "image": "collectibles/3096.webp",
+    "boost": null
+  },
+  "Gourmet Slop": {
+    "collection": "collectibles",
+    "id": 3097,
+    "image": "collectibles/3097.webp",
+    "boost": null
+  },
+  "Truffle Seasoning": {
+    "collection": "collectibles",
+    "id": 3101,
+    "image": "collectibles/3101.png",
+    "boost": [
+      "-50% next Animal sleep"
+    ]
+  },
   "Pumpkin Soup": {
     "image": "consumables/501.png"
   },
@@ -8919,6 +9003,18 @@
   "Saltbite": {
     "image": "consumables/3029.png"
   },
+  "Crystal Cookie": {
+    "image": "consumables/3093.png"
+  },
+  "Ember-Roasted Truffle Potatoes": {
+    "image": "consumables/3098.png"
+  },
+  "Truffle Cake": {
+    "image": "consumables/3099.png"
+  },
+  "Creamy Truffle Risotto": {
+    "image": "consumables/3100.png"
+  },
   "Beige Farmer Potion": {
     "collection": "wearables",
     "id": 1,
@@ -8979,6 +9075,20 @@
     "image": "wearables/15.webp",
     "boost": null
   },
+  "Chef Apron (wearables)": {
+    "collection": "wearables",
+    "id": 16,
+    "image": "wearables/16.webp",
+    "boost": [
+      "+20% Cake Delivery Profit"
+    ]
+  },
+  "Warrior Shirt (wearables)": {
+    "collection": "wearables",
+    "id": 17,
+    "image": "wearables/17.webp",
+    "boost": null
+  },
   "Farmer Overalls": {
     "collection": "wearables",
     "id": 18,
@@ -8995,6 +9105,12 @@
     "collection": "wearables",
     "id": 20,
     "image": "wearables/20.webp",
+    "boost": null
+  },
+  "Warrior Pants (wearables)": {
+    "collection": "wearables",
+    "id": 21,
+    "image": "wearables/21.webp",
     "boost": null
   },
   "Black Farmer Boots": {
@@ -9014,6 +9130,58 @@
     "id": 24,
     "image": "wearables/24.webp",
     "boost": null
+  },
+  "Chef Hat (wearables)": {
+    "collection": "wearables",
+    "id": 25,
+    "image": "wearables/25.webp",
+    "boost": null
+  },
+  "Warrior Helmet (wearables)": {
+    "collection": "wearables",
+    "id": 26,
+    "image": "wearables/26.webp",
+    "boost": null
+  },
+  "Sunflower Amulet (wearables)": {
+    "collection": "wearables",
+    "id": 27,
+    "image": "wearables/27.webp",
+    "boost": [
+      "+10% Sunflower"
+    ]
+  },
+  "Carrot Amulet (wearables)": {
+    "collection": "wearables",
+    "id": 28,
+    "image": "wearables/28.webp",
+    "boost": [
+      "x0.8 Carrot Plot Growth time"
+    ]
+  },
+  "Beetroot Amulet (wearables)": {
+    "collection": "wearables",
+    "id": 29,
+    "image": "wearables/29.webp",
+    "boost": [
+      "+20% Beetroot"
+    ]
+  },
+  "Green Amulet (wearables)": {
+    "collection": "wearables",
+    "id": 30,
+    "image": "wearables/30.webp",
+    "boost": [
+      "Chance 10x Crops"
+    ]
+  },
+  "Sunflower Shield (wearables)": {
+    "collection": "wearables",
+    "id": 31,
+    "image": "wearables/31.webp",
+    "boost": [
+      "Free Sunflower Seeds"
+    ]
   },
   "Farm Background": {
     "collection": "wearables",
@@ -9087,6 +9255,12 @@
     "image": "wearables/43.webp",
     "boost": null
   },
+  "Axe (wearables)": {
+    "collection": "wearables",
+    "id": 44,
+    "image": "wearables/44.webp",
+    "boost": null
+  },
   "Sword": {
     "collection": "wearables",
     "id": 45,
@@ -9153,6 +9327,14 @@
     "image": "wearables/55.webp",
     "boost": null
   },
+  "Parsnip (wearables)": {
+    "collection": "wearables",
+    "id": 56,
+    "image": "wearables/56.webp",
+    "boost": [
+      "+20% Parsnip"
+    ]
+  },
   "Jail Background": {
     "collection": "wearables",
     "id": 57,
@@ -9195,6 +9377,12 @@
     "collection": "wearables",
     "id": 63,
     "image": "wearables/63.webp",
+    "boost": null
+  },
+  "Hammer (wearables)": {
+    "collection": "wearables",
+    "id": 64,
+    "image": "wearables/64.webp",
     "boost": null
   },
   "Bumpkin Boots": {
@@ -9273,10 +9461,22 @@
     "image": "wearables/76.webp",
     "boost": null
   },
+  "Ancient Goblin Sword (wearables)": {
+    "collection": "wearables",
+    "id": 77,
+    "image": "wearables/77.webp",
+    "boost": null
+  },
   "Mountain View Background": {
     "collection": "wearables",
     "id": 78,
     "image": "wearables/78.webp",
+    "boost": null
+  },
+  "Skull Hat (wearables)": {
+    "collection": "wearables",
+    "id": 79,
+    "image": "wearables/79.webp",
     "boost": null
   },
   "Reindeer Antlers": {
@@ -11190,6 +11390,15 @@
       "+10% Marks"
     ]
   },
+  "Goblin Crown (wearables)": {
+    "collection": "wearables",
+    "id": 377,
+    "image": "wearables/377.webp",
+    "boost": [
+      "+25% FLOWER & Coin Deliveries",
+      "+10% Marks"
+    ]
+  },
   "Nightshade Crown": {
     "collection": "wearables",
     "id": 378,
@@ -12563,5 +12772,17 @@
     "boost": [
       "-50% Salt cost for aging fish"
     ]
+  },
+  "Traveling Merchant Suit": {
+    "collection": "wearables",
+    "id": 587,
+    "image": "wearables/587.webp",
+    "boost": null
+  },
+  "Traveling Merchant Bag": {
+    "collection": "wearables",
+    "id": 588,
+    "image": "wearables/588.webp",
+    "boost": null
   }
 }
