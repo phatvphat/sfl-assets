@@ -8391,6 +8391,126 @@
       "-50% next Animal sleep"
     ]
   },
+  "Cave Dwellers Fish": {
+    "collection": "collectibles",
+    "id": 3102,
+    "image": "collectibles/3102.png",
+    "boost": null
+  },
+  "Beetle Wing": {
+    "collection": "collectibles",
+    "id": 3103,
+    "image": "collectibles/3103.webp",
+    "boost": null
+  },
+  "Cave Dwellers Raffle Ticket": {
+    "collection": "collectibles",
+    "id": 3104,
+    "image": "collectibles/3104.png",
+    "boost": null
+  },
+  "Cave Dwellers Banner": {
+    "collection": "collectibles",
+    "id": 3105,
+    "image": "collectibles/3105.webp",
+    "boost": null
+  },
+  "Cave Dwellers Artefact": {
+    "collection": "collectibles",
+    "id": 3106,
+    "image": "collectibles/3106.png",
+    "boost": null
+  },
+  "Mushroom Chicken": {
+    "collection": "collectibles",
+    "id": 3107,
+    "image": "collectibles/3107.webp",
+    "boost": null
+  },
+  "Ladybug Cow": {
+    "collection": "collectibles",
+    "id": 3108,
+    "image": "collectibles/3108.webp",
+    "boost": null
+  },
+  "Beetle Sheep": {
+    "collection": "collectibles",
+    "id": 3109,
+    "image": "collectibles/3109.webp",
+    "boost": null
+  },
+  "Cyclops Bloom": {
+    "collection": "collectibles",
+    "id": 3110,
+    "image": "collectibles/3110.webp",
+    "boost": null
+  },
+  "Duende Monument": {
+    "collection": "collectibles",
+    "id": 3111,
+    "image": "collectibles/3111.webp",
+    "boost": null
+  },
+  "Miner's Bed": {
+    "collection": "collectibles",
+    "id": 3112,
+    "image": "collectibles/3112.webp",
+    "boost": null
+  },
+  "Giant Truffle": {
+    "collection": "collectibles",
+    "id": 3113,
+    "image": "collectibles/3113.webp",
+    "boost": null
+  },
+  "Mining Drill": {
+    "collection": "collectibles",
+    "id": 3114,
+    "image": "collectibles/3114.webp",
+    "boost": null
+  },
+  "Piggy Bank": {
+    "collection": "collectibles",
+    "id": 3115,
+    "image": "collectibles/3115.webp",
+    "boost": null
+  },
+  "Straw House": {
+    "collection": "collectibles",
+    "id": 3116,
+    "image": "collectibles/3116.webp",
+    "boost": null
+  },
+  "Stick House": {
+    "collection": "collectibles",
+    "id": 3117,
+    "image": "collectibles/3117.webp",
+    "boost": null
+  },
+  "Brick House": {
+    "collection": "collectibles",
+    "id": 3118,
+    "image": "collectibles/3118.webp",
+    "boost": null
+  },
+  "Big Bad Wolf": {
+    "collection": "collectibles",
+    "id": 3119,
+    "image": "collectibles/3119.webp",
+    "boost": null
+  },
+  "Pig Plush": {
+    "collection": "collectibles",
+    "id": 3120,
+    "image": "collectibles/3120.webp",
+    "boost": null
+  },
+  "Pig Doll": {
+    "collection": "collectibles",
+    "id": 3121,
+    "image": "collectibles/3121.webp",
+    "boost": null
+  },
   "Pumpkin Soup": {
     "image": "consumables/501.png"
   },
@@ -12783,6 +12903,48 @@
     "collection": "wearables",
     "id": 588,
     "image": "wearables/588.webp",
+    "boost": null
+  },
+  "Beetle Goggles": {
+    "collection": "wearables",
+    "id": 589,
+    "image": "wearables/589.webp",
+    "boost": null
+  },
+  "Duende Hat": {
+    "collection": "wearables",
+    "id": 590,
+    "image": "wearables/590.webp",
+    "boost": null
+  },
+  "Duende Shirt": {
+    "collection": "wearables",
+    "id": 591,
+    "image": "wearables/591.webp",
+    "boost": null
+  },
+  "Duende Pants": {
+    "collection": "wearables",
+    "id": 592,
+    "image": "wearables/592.webp",
+    "boost": null
+  },
+  "Duende Shoes": {
+    "collection": "wearables",
+    "id": 593,
+    "image": "wearables/593.webp",
+    "boost": null
+  },
+  "Hercules Beetle Hat": {
+    "collection": "wearables",
+    "id": 594,
+    "image": "wearables/594.webp",
+    "boost": null
+  },
+  "Pig Onesie": {
+    "collection": "wearables",
+    "id": 595,
+    "image": "wearables/595.webp",
     "boost": null
   }
 }
