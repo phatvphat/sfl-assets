@@ -2581,6 +2581,12 @@
     "image": "collectibles/776.webp",
     "boost": null
   },
+  "Halloween Token 2026": {
+    "collection": "collectibles",
+    "id": 777,
+    "image": "collectibles/777.webp",
+    "boost": null
+  },
   "Australian Flag": {
     "collection": "collectibles",
     "id": 801,
@@ -6562,6 +6568,120 @@
     "image": "collectibles/2375.webp",
     "boost": null
   },
+  "Corrupted Pumpkin": {
+    "collection": "collectibles",
+    "id": 2376,
+    "image": "collectibles/2376.webp",
+    "boost": null
+  },
+  "Huge Jack-o'-lantern": {
+    "collection": "collectibles",
+    "id": 2377,
+    "image": "collectibles/2377.webp",
+    "boost": null
+  },
+  "Haunted TV": {
+    "collection": "collectibles",
+    "id": 2378,
+    "image": "collectibles/2378.webp",
+    "boost": null
+  },
+  "Zombie Hand Toy": {
+    "collection": "collectibles",
+    "id": 2379,
+    "image": "collectibles/2379.webp",
+    "boost": null
+  },
+  "Cool Zombie Tombstone": {
+    "collection": "collectibles",
+    "id": 2380,
+    "image": "collectibles/2380.webp",
+    "boost": null
+  },
+  "Destroyed Sign": {
+    "collection": "collectibles",
+    "id": 2381,
+    "image": "collectibles/2381.webp",
+    "boost": null
+  },
+  "Skull Candles": {
+    "collection": "collectibles",
+    "id": 2382,
+    "image": "collectibles/2382.webp",
+    "boost": null
+  },
+  "Plague Crow": {
+    "collection": "collectibles",
+    "id": 2383,
+    "image": "collectibles/2383.webp",
+    "boost": null
+  },
+  "Skeleton Crow": {
+    "collection": "collectibles",
+    "id": 2384,
+    "image": "collectibles/2384.webp",
+    "boost": null
+  },
+  "Witch Crow": {
+    "collection": "collectibles",
+    "id": 2385,
+    "image": "collectibles/2385.webp",
+    "boost": null
+  },
+  "Fisherbird Crow": {
+    "collection": "collectibles",
+    "id": 2386,
+    "image": "collectibles/2386.webp",
+    "boost": null
+  },
+  "Chained Crow": {
+    "collection": "collectibles",
+    "id": 2387,
+    "image": "collectibles/2387.webp",
+    "boost": null
+  },
+  "Count Vlad Crow": {
+    "collection": "collectibles",
+    "id": 2388,
+    "image": "collectibles/2388.webp",
+    "boost": null
+  },
+  "Lual Crow": {
+    "collection": "collectibles",
+    "id": 2389,
+    "image": "collectibles/2389.webp",
+    "boost": null
+  },
+  "King Crow": {
+    "collection": "collectibles",
+    "id": 2390,
+    "image": "collectibles/2390.webp",
+    "boost": null
+  },
+  "Devil Crow": {
+    "collection": "collectibles",
+    "id": 2391,
+    "image": "collectibles/2391.webp",
+    "boost": null
+  },
+  "Pharaoh Crow": {
+    "collection": "collectibles",
+    "id": 2392,
+    "image": "collectibles/2392.webp",
+    "boost": null
+  },
+  "Cultist Crow": {
+    "collection": "collectibles",
+    "id": 2393,
+    "image": "collectibles/2393.webp",
+    "boost": null
+  },
+  "Halloween Ticket 2026": {
+    "collection": "collectibles",
+    "id": 2394,
+    "image": "collectibles/2394.webp",
+    "boost": null
+  },
   "Basic Biome": {
     "collection": "collectibles",
     "id": 2400,
@@ -8386,7 +8506,7 @@
   "Truffle Seasoning": {
     "collection": "collectibles",
     "id": 3101,
-    "image": "collectibles/3101.png",
+    "image": "collectibles/3101.webp",
     "boost": [
       "-50% next Animal sleep"
     ]
@@ -9127,13 +9247,13 @@
     "image": "consumables/3093.png"
   },
   "Ember-Roasted Truffle Potatoes": {
-    "image": "consumables/3098.png"
+    "image": "consumables/3098.webp"
   },
   "Truffle Cake": {
-    "image": "consumables/3099.png"
+    "image": "consumables/3099.webp"
   },
   "Creamy Truffle Risotto": {
-    "image": "consumables/3100.png"
+    "image": "consumables/3100.webp"
   },
   "Beige Farmer Potion": {
     "collection": "wearables",
@@ -12945,6 +13065,78 @@
     "collection": "wearables",
     "id": 595,
     "image": "wearables/595.webp",
+    "boost": null
+  },
+  "Sky Tearer Wings": {
+    "collection": "wearables",
+    "id": 596,
+    "image": "wearables/596.webp",
+    "boost": null
+  },
+  "Bat Aura": {
+    "collection": "wearables",
+    "id": 597,
+    "image": "wearables/597.webp",
+    "boost": null
+  },
+  "Vampire Headwear": {
+    "collection": "wearables",
+    "id": 598,
+    "image": "wearables/598.webp",
+    "boost": null
+  },
+  "Butcher Knife": {
+    "collection": "wearables",
+    "id": 599,
+    "image": "wearables/599.webp",
+    "boost": null
+  },
+  "Skeleton Mask": {
+    "collection": "wearables",
+    "id": 600,
+    "image": "wearables/600.webp",
+    "boost": null
+  },
+  "Vampire Breeches": {
+    "collection": "wearables",
+    "id": 601,
+    "image": "wearables/601.webp",
+    "boost": null
+  },
+  "Scary Nights Background": {
+    "collection": "wearables",
+    "id": 602,
+    "image": "wearables/602.webp",
+    "boost": null
+  },
+  "Vampire Garments": {
+    "collection": "wearables",
+    "id": 603,
+    "image": "wearables/603.webp",
+    "boost": null
+  },
+  "Hook and Chain": {
+    "collection": "wearables",
+    "id": 604,
+    "image": "wearables/604.webp",
+    "boost": null
+  },
+  "Vampire Footwear": {
+    "collection": "wearables",
+    "id": 605,
+    "image": "wearables/605.webp",
+    "boost": null
+  },
+  "Skeleton Costume": {
+    "collection": "wearables",
+    "id": 606,
+    "image": "wearables/606.webp",
+    "boost": null
+  },
+  "Firefly Aura": {
+    "collection": "wearables",
+    "id": 607,
+    "image": "wearables/607.webp",
     "boost": null
   }
 }

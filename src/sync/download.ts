@@ -32,14 +32,57 @@ export async function ensureDir(dir: string): Promise<void> {
   await fs.promises.mkdir(dir, { recursive: true });
 }
 
-/** Delete `dir/{id}.*` (used when an item moves between collections). */
-export async function deleteIdAssets(dir: string, id: number): Promise<void> {
+/**
+ * Delete `dir/{id}.*`.
+ * When `keepBasename` is set, that file is left alone (drop other extensions).
+ */
+export async function deleteIdAssets(
+  dir: string,
+  id: number,
+  keepBasename?: string,
+): Promise<void> {
   if (!fs.existsSync(dir)) return;
   const prefix = `${id}.`;
   for (const name of await fs.promises.readdir(dir)) {
     if (!name.startsWith(prefix)) continue;
+    if (keepBasename && name === keepBasename) continue;
     await fs.promises.unlink(path.join(dir, name)).catch(() => undefined);
   }
+}
+
+/**
+ * Remove files in `dir` whose basename is not in `keep`.
+ * Skips directories and dotfiles (e.g. `.missing.json` if ever placed here).
+ * Returns the number of deleted files.
+ */
+export async function pruneUnusedAssets(
+  dir: string,
+  keep: Set<string>,
+): Promise<number> {
+  if (!fs.existsSync(dir)) return 0;
+  let deleted = 0;
+  for (const name of await fs.promises.readdir(dir)) {
+    if (name.startsWith(".")) continue;
+    if (keep.has(name)) continue;
+    const full = path.join(dir, name);
+    const stat = await fs.promises.lstat(full).catch(() => null);
+    if (!stat?.isFile()) continue;
+    await fs.promises.unlink(full).catch(() => undefined);
+    deleted++;
+  }
+  return deleted;
+}
+
+/** Basenames currently on disk for `dir/{id}.*` (preserve on sync failure). */
+export async function existingIdBasenames(
+  dir: string,
+  id: number,
+): Promise<string[]> {
+  if (!fs.existsSync(dir)) return [];
+  const prefix = `${id}.`;
+  return (await fs.promises.readdir(dir)).filter((name) =>
+    name.startsWith(prefix),
+  );
 }
 
 async function fetchToFile(url: string, dest: string): Promise<void> {
@@ -78,9 +121,11 @@ export async function materializeImage(
       }
       await ensureDir(destDir);
       await fs.promises.copyFile(ref.path, dest);
-      return { relative };
+    } else {
+      await fetchToFile(ref.url, dest);
     }
-    await fetchToFile(ref.url, dest);
+    // After a successful write, drop other extensions for this id.
+    await deleteIdAssets(destDir, id, path.basename(dest));
     return { relative };
   } catch (err) {
     return {

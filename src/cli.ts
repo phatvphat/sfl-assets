@@ -1,4 +1,5 @@
 import fs from "node:fs";
+import path from "node:path";
 import {
   ASSETS_DIR,
   COLLECTIBLES_DIR,
@@ -21,7 +22,9 @@ import {
 import {
   deleteIdAssets,
   ensureDir,
+  existingIdBasenames,
   mapPool,
+  pruneUnusedAssets,
   syncImage,
   type MissingEntry,
 } from "./sync/download.js";
@@ -33,6 +36,23 @@ import {
   writeMissing,
   type Metadata,
 } from "./sync/metadata.js";
+
+/** Record kept asset basename(s) for post-sync orphan pruning. */
+async function rememberAsset(
+  keep: Set<string>,
+  destDir: string,
+  id: number,
+  image: string | null,
+): Promise<void> {
+  if (image) {
+    keep.add(path.basename(image));
+    return;
+  }
+  // Sync failed / no ref — keep whatever is already on disk for this id.
+  for (const name of await existingIdBasenames(destDir, id)) {
+    keep.add(name);
+  }
+}
 
 function unresolvedImageReason(
   images: Record<string, unknown>,
@@ -91,6 +111,9 @@ async function main() {
 
   const metadata: Metadata = {};
   const missing: MissingEntry[] = [];
+  const keepCollectibles = new Set<string>();
+  const keepWearables = new Set<string>();
+  const keepConsumables = new Set<string>();
 
   await mapPool(consumableJobs, CONCURRENCY, async ([name, id]) => {
     const image = await syncImage({
@@ -104,6 +127,7 @@ async function main() {
       noRefReason: unresolvedImageReason(images, name),
     });
     if (image) await deleteIdAssets(COLLECTIBLES_DIR, id);
+    await rememberAsset(keepConsumables, CONSUMABLES_DIR, id, image);
     metadata[name] = { image };
   });
 
@@ -118,6 +142,7 @@ async function main() {
       missing,
       noRefReason: unresolvedImageReason(images, name),
     });
+    await rememberAsset(keepCollectibles, COLLECTIBLES_DIR, id, image);
     putEntry(
       metadata,
       name,
@@ -142,6 +167,7 @@ async function main() {
       missing,
       noRefReason: `No local wearable file for id ${id}`,
     });
+    await rememberAsset(keepWearables, WEARABLES_DIR, id, image);
     putEntry(
       metadata,
       name,
@@ -170,6 +196,15 @@ async function main() {
     collisions,
   );
 
+  const [prunedCollectibles, prunedWearables, prunedConsumables] =
+    await Promise.all([
+      pruneUnusedAssets(COLLECTIBLES_DIR, keepCollectibles),
+      pruneUnusedAssets(WEARABLES_DIR, keepWearables),
+      pruneUnusedAssets(CONSUMABLES_DIR, keepConsumables),
+    ]);
+  const pruned =
+    prunedCollectibles + prunedWearables + prunedConsumables;
+
   await writeMetadata(ordered);
   await writeMissing(missing);
 
@@ -181,6 +216,9 @@ async function main() {
   console.log(`Wrote ${METADATA_PATH}`);
   console.log(`Wrote ${METADATA_MIN_PATH}`);
   console.log(`Assets dir: ${ASSETS_DIR}`);
+  if (pruned > 0) {
+    console.log(`Pruned ${pruned} unused asset file(s)`);
+  }
   console.log(
     `Done: ${withImage}/${Object.keys(ordered).length} images (${consumableJobs.length} consumables), ${withBoost} with boosts, ${missing.length} missing → ${MISSING_PATH}`,
   );
