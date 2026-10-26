@@ -8511,10 +8511,10 @@
       "-50% next Animal sleep"
     ]
   },
-  "Cave Dwellers Fish": {
+  "Manatee": {
     "collection": "collectibles",
     "id": 3102,
-    "image": "collectibles/3102.png",
+    "image": "collectibles/3102.webp",
     "boost": null
   },
   "Beetle Wing": {
@@ -8535,10 +8535,10 @@
     "image": "collectibles/3105.webp",
     "boost": null
   },
-  "Cave Dwellers Artefact": {
+  "Clover Coin": {
     "collection": "collectibles",
     "id": 3106,
-    "image": "collectibles/3106.png",
+    "image": "collectibles/3106.webp",
     "boost": null
   },
   "Mushroom Chicken": {
@@ -8629,6 +8629,18 @@
     "collection": "collectibles",
     "id": 3121,
     "image": "collectibles/3121.webp",
+    "boost": null
+  },
+  "Betta": {
+    "collection": "collectibles",
+    "id": 3122,
+    "image": "collectibles/3122.webp",
+    "boost": null
+  },
+  "Macropinna": {
+    "collection": "collectibles",
+    "id": 3123,
+    "image": "collectibles/3123.webp",
     "boost": null
   },
   "Pumpkin Soup": {
