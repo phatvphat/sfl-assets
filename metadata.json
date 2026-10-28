@@ -8517,7 +8517,7 @@
     "image": "collectibles/3102.webp",
     "boost": null
   },
-  "Beetle Wing": {
+  "Duende Cap": {
     "collection": "collectibles",
     "id": 3103,
     "image": "collectibles/3103.webp",
@@ -8545,31 +8545,42 @@
     "collection": "collectibles",
     "id": 3107,
     "image": "collectibles/3107.webp",
-    "boost": null
+    "boost": [
+      "+0.5 Crimstone every 5th mine"
+    ]
   },
   "Ladybug Cow": {
     "collection": "collectibles",
     "id": 3108,
     "image": "collectibles/3108.webp",
-    "boost": null
+    "boost": [
+      "+1 Oil"
+    ]
   },
   "Beetle Sheep": {
     "collection": "collectibles",
     "id": 3109,
     "image": "collectibles/3109.webp",
-    "boost": null
+    "boost": [
+      "-7.5% Sheep Sleep Time"
+    ]
   },
   "Cyclops Bloom": {
     "collection": "collectibles",
     "id": 3110,
     "image": "collectibles/3110.webp",
-    "boost": null
+    "boost": [
+      "-20% Fish Market processing time"
+    ]
   },
   "Duende Monument": {
     "collection": "collectibles",
     "id": 3111,
     "image": "collectibles/3111.webp",
-    "boost": null
+    "boost": [
+      "-10% Expansion Resources (does not stack with Grinx's Hammer)",
+      "-10% Expansion Time"
+    ]
   },
   "Miner's Bed": {
     "collection": "collectibles",
@@ -8581,13 +8592,19 @@
     "collection": "collectibles",
     "id": 3113,
     "image": "collectibles/3113.webp",
-    "boost": null
+    "boost": [
+      "+30% Bumpkin XP from non-fish food",
+      "+60% Bumpkin XP from Smoothie Shack drinks (instead of +30%)",
+      "+60% Bumpkin XP from Deli food (instead of +30%)"
+    ]
   },
   "Mining Drill": {
     "collection": "collectibles",
     "id": 3114,
     "image": "collectibles/3114.webp",
-    "boost": null
+    "boost": [
+      "1/3 chance of +1 Desert Treasure"
+    ]
   },
   "Piggy Bank": {
     "collection": "collectibles",
@@ -8599,19 +8616,29 @@
     "collection": "collectibles",
     "id": 3116,
     "image": "collectibles/3116.webp",
-    "boost": null
+    "boost": [
+      "x0.9 Composter Compost Time",
+      "x3 base Fertiliser from Composters",
+      "x3 base Worms from Composting"
+    ]
   },
   "Stick House": {
     "collection": "collectibles",
     "id": 3117,
     "image": "collectibles/3117.webp",
-    "boost": null
+    "boost": [
+      "-25% Oil for Expansions (does not stack with Grinx's Hammer)",
+      "-10% Expansion Time"
+    ]
   },
   "Brick House": {
     "collection": "collectibles",
     "id": 3118,
     "image": "collectibles/3118.webp",
-    "boost": null
+    "boost": [
+      "-25% Crimstone for Expansions (does not stack with Grinx's Hammer)",
+      "-5% Coins for Expansions"
+    ]
   },
   "Big Bad Wolf": {
     "collection": "collectibles",
@@ -8641,7 +8668,9 @@
     "collection": "collectibles",
     "id": 3123,
     "image": "collectibles/3123.webp",
-    "boost": null
+    "boost": [
+      "+0.1 Obsidian"
+    ]
   },
   "Pumpkin Soup": {
     "image": "consumables/501.png"
@@ -10459,7 +10488,10 @@
     "collection": "wearables",
     "id": 198,
     "image": "wearables/198.webp",
-    "boost": null
+    "boost": [
+      "x0.7 Grape Growth Time",
+      "10% chance of +10 Grapes"
+    ]
   },
   "Crimson Skirt": {
     "collection": "wearables",
@@ -10609,7 +10641,10 @@
     "collection": "wearables",
     "id": 223,
     "image": "wearables/223.webp",
-    "boost": null
+    "boost": [
+      "+2 Fish per catch",
+      "20% chance to not use a daily fishing reel"
+    ]
   },
   "Ancient Rod": {
     "collection": "wearables",
@@ -13047,7 +13082,10 @@
     "collection": "wearables",
     "id": 590,
     "image": "wearables/590.webp",
-    "boost": null
+    "boost": [
+      "x0.9 Crop Plot Growth Time",
+      "x0.9 Fruit Patch Growth Time"
+    ]
   },
   "Duende Shirt": {
     "collection": "wearables",
@@ -13071,7 +13109,9 @@
     "collection": "wearables",
     "id": 594,
     "image": "wearables/594.webp",
-    "boost": null
+    "boost": [
+      "-25% Obsidian for Expansions (does not stack with Grinx's Hammer)"
+    ]
   },
   "Pig Onesie": {
     "collection": "wearables",
@@ -13149,6 +13189,9 @@
     "collection": "wearables",
     "id": 607,
     "image": "wearables/607.webp",
-    "boost": null
+    "boost": [
+      "x0.8 Lava Pit Time",
+      "5% chance to instantly complete a Lava Pit"
+    ]
   }
 }
