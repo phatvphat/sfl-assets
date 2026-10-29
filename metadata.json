@@ -8672,6 +8672,36 @@
       "+0.1 Obsidian"
     ]
   },
+  "Duende in a Bottle": {
+    "collection": "collectibles",
+    "id": 3272,
+    "image": "collectibles/3272.webp",
+    "boost": null
+  },
+  "Mushroom Log": {
+    "collection": "collectibles",
+    "id": 3273,
+    "image": "collectibles/3273.webp",
+    "boost": null
+  },
+  "Pot of Luck": {
+    "collection": "collectibles",
+    "id": 3274,
+    "image": "collectibles/3274.webp",
+    "boost": null
+  },
+  "TNT": {
+    "collection": "collectibles",
+    "id": 3275,
+    "image": "collectibles/3275.webp",
+    "boost": null
+  },
+  "Warning Sign": {
+    "collection": "collectibles",
+    "id": 3276,
+    "image": "collectibles/3276.webp",
+    "boost": null
+  },
   "Pumpkin Soup": {
     "image": "consumables/501.png"
   },
@@ -12991,7 +13021,9 @@
     "collection": "wearables",
     "id": 576,
     "image": "wearables/576.webp",
-    "boost": null
+    "boost": [
+      "-10% Power Skill Cooldown"
+    ]
   },
   "Ascension Wings": {
     "collection": "wearables",
@@ -13117,7 +13149,9 @@
     "collection": "wearables",
     "id": 595,
     "image": "wearables/595.webp",
-    "boost": null
+    "boost": [
+      "+5% Animal Feed XP"
+    ]
   },
   "Sky Tearer Wings": {
     "collection": "wearables",
