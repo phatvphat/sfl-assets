@@ -919,7 +919,7 @@
     "image": "collectibles/404.png",
     "boost": [
       "x0.85 Crop Growth Time",
-      "+20% Crop Yield",
+      "x1.2 Crop Yield",
       "Disabled if Kuebiko Active"
     ]
   },
@@ -970,7 +970,7 @@
     "id": 410,
     "image": "collectibles/410.webp",
     "boost": [
-      "+100% Cauliflower"
+      "x2 Cauliflower"
     ]
   },
   "Sunflower Tombstone": {
@@ -1002,7 +1002,7 @@
     "id": 415,
     "image": "collectibles/415.gif",
     "boost": [
-      "+20% Wood",
+      "x1.2 Wood",
       "Disabled if Apprentice Beaver or Foreman Beaver Active"
     ]
   },
@@ -1011,7 +1011,7 @@
     "id": 416,
     "image": "collectibles/416.gif",
     "boost": [
-      "+20% Wood",
+      "x1.2 Wood",
       "x0.5 Tree Recovery Time",
       "Disabled if Foreman Beaver Active"
     ]
@@ -1021,7 +1021,7 @@
     "id": 417,
     "image": "collectibles/417.gif",
     "boost": [
-      "+20% Wood",
+      "x1.2 Wood",
       "x0.5 Tree Recovery Time",
       "Chop Trees without Axes"
     ]
@@ -1057,7 +1057,7 @@
     "image": "collectibles/421.gif",
     "boost": [
       "x0.85 Crop Growth Time",
-      "+20% Crop Yield",
+      "x1.2 Crop Yield",
       "Free Seeds"
     ]
   },
@@ -1134,7 +1134,7 @@
     "id": 432,
     "image": "collectibles/432.gif",
     "boost": [
-      "+20% Pumpkin"
+      "x1.2 Pumpkin"
     ]
   },
   "Peeled Potato": {
@@ -1447,7 +1447,7 @@
     "id": 472,
     "image": "collectibles/472.png",
     "boost": [
-      "+20% Bumpkin XP from Cakes"
+      "x1.2 Bumpkin XP from Cakes"
     ]
   },
   "Kernaldo": {
@@ -1544,7 +1544,7 @@
     "id": 485,
     "image": "collectibles/485.webp",
     "boost": [
-      "+20% Bumpkin XP from Fish"
+      "x1.2 Bumpkin XP from Fish"
     ]
   },
   "Soil Krabby": {
@@ -2090,7 +2090,7 @@
     "id": 667,
     "image": "collectibles/667.webp",
     "boost": [
-      "+5% Animal Produce Yield"
+      "x1.05 Animal Produce Yield"
     ]
   },
   "Honey Treat": {
@@ -2892,7 +2892,7 @@
     "id": 909,
     "image": "collectibles/909.gif",
     "boost": [
-      "+20% Carrot"
+      "x1.2 Carrot"
     ]
   },
   "Engine Core": {
@@ -2906,7 +2906,7 @@
     "id": 911,
     "image": "collectibles/911.webp",
     "boost": [
-      "+5% Bumpkin XP"
+      "x1.05 Bumpkin XP"
     ]
   },
   "Goblin Key": {
@@ -3188,7 +3188,7 @@
     "id": 1011,
     "image": "collectibles/1011.png",
     "boost": [
-      "+50% workbench tool stock"
+      "x1.5 workbench tool stock"
     ]
   },
   "Warehouse": {
@@ -3196,7 +3196,7 @@
     "id": 1012,
     "image": "collectibles/1012.png",
     "boost": [
-      "+20% market seed stock"
+      "x1.2 market seed stock"
     ]
   },
   "Town Center": {
@@ -4270,7 +4270,7 @@
     "id": 2010,
     "image": "collectibles/2010.webp",
     "boost": [
-      "+10% Bumpkin XP"
+      "x1.1 Bumpkin XP"
     ]
   },
   "Flower Rug": {
@@ -5803,7 +5803,7 @@
     "id": 2256,
     "image": "collectibles/2256.webp",
     "boost": [
-      "5% less feeding cost for cows"
+      "x0.95 Cow Feed Cost"
     ]
   },
   "Nurse Sheep": {
@@ -7252,7 +7252,7 @@
     "image": "collectibles/2656.webp",
     "boost": [
       "+0.5 Honey Production Speed",
-      "+20% chance of bee swarm"
+      "+20% bee swarm chance (added to base)"
     ]
   },
   "Tortoise Shrine": {
@@ -7340,7 +7340,7 @@
     "id": 2665,
     "image": "collectibles/2665.webp",
     "boost": [
-      "-2.5% resource tax"
+      "-2.5% resource tax (subtracted from base)"
     ]
   },
   "Fused Stone Rock": {
@@ -7866,7 +7866,7 @@
     "id": 2996,
     "image": "collectibles/2996.webp",
     "boost": [
-      "-2.5% Chicken Sleep Time"
+      "x0.975 Chicken Sleep Time"
     ]
   },
   "Salt Crystal Flower": {
@@ -8107,7 +8107,7 @@
     "id": 3034,
     "image": "collectibles/3034.webp",
     "boost": [
-      "-2.5% Cow Sleep Time"
+      "x0.975 Cow Sleep Time"
     ]
   },
   "Ascended Sheep": {
@@ -8161,7 +8161,7 @@
     "id": 3042,
     "image": "collectibles/3042.webp",
     "boost": [
-      "-20% Expansion Time"
+      "x0.8 Expansion Time"
     ]
   },
   "Salt Rug": {
@@ -8190,7 +8190,7 @@
     "image": "collectibles/3046.webp",
     "boost": [
       "15% chance to double Fermentation & Spice Rack output",
-      "+5% XP from Aged Fish"
+      "x1.05 XP from Aged Fish"
     ]
   },
   "Coat Rack": {
@@ -8225,7 +8225,7 @@
     "id": 3051,
     "image": "collectibles/3051.webp",
     "boost": [
-      "-30% Salt Node recovery time",
+      "x0.7 Salt Node recovery time",
       "+2 Salt per harvest"
     ]
   },
@@ -8248,7 +8248,7 @@
     "id": 3054,
     "image": "collectibles/3054.webp",
     "boost": [
-      "+14% Prime Aged chance"
+      "+14% Prime Aged chance (added to base)"
     ]
   },
   "Letter A Tile": {
@@ -8508,7 +8508,7 @@
     "id": 3101,
     "image": "collectibles/3101.webp",
     "boost": [
-      "-50% next Animal sleep"
+      "x0.5 next Animal sleep"
     ]
   },
   "Manatee": {
@@ -8562,7 +8562,7 @@
     "id": 3109,
     "image": "collectibles/3109.webp",
     "boost": [
-      "-7.5% Sheep Sleep Time"
+      "x0.925 Sheep Sleep Time"
     ]
   },
   "Cyclops Bloom": {
@@ -8570,7 +8570,7 @@
     "id": 3110,
     "image": "collectibles/3110.webp",
     "boost": [
-      "-20% Fish Market processing time"
+      "x0.8 Fish Market processing time"
     ]
   },
   "Duende Monument": {
@@ -8578,8 +8578,8 @@
     "id": 3111,
     "image": "collectibles/3111.webp",
     "boost": [
-      "-10% Expansion Resources (does not stack with Grinx's Hammer)",
-      "-10% Expansion Time"
+      "x0.9 Expansion Resources (does not stack with Grinx's Hammer)",
+      "x0.9 Expansion Time"
     ]
   },
   "Miner's Bed": {
@@ -8593,9 +8593,9 @@
     "id": 3113,
     "image": "collectibles/3113.webp",
     "boost": [
-      "+30% Bumpkin XP from non-fish food",
-      "+60% Bumpkin XP from Smoothie Shack drinks (instead of +30%)",
-      "+60% Bumpkin XP from Deli food (instead of +30%)"
+      "x1.3 Bumpkin XP from non-fish food",
+      "x1.6 Bumpkin XP from Smoothie Shack drinks (instead of x1.3)",
+      "x1.6 Bumpkin XP from Deli food (instead of x1.3)"
     ]
   },
   "Mining Drill": {
@@ -8627,8 +8627,8 @@
     "id": 3117,
     "image": "collectibles/3117.webp",
     "boost": [
-      "-25% Oil for Expansions (does not stack with Grinx's Hammer)",
-      "-10% Expansion Time"
+      "x0.75 Oil for Expansions (does not stack with Grinx's Hammer)",
+      "x0.9 Expansion Time"
     ]
   },
   "Brick House": {
@@ -8636,8 +8636,8 @@
     "id": 3118,
     "image": "collectibles/3118.webp",
     "boost": [
-      "-25% Crimstone for Expansions (does not stack with Grinx's Hammer)",
-      "-5% Coins for Expansions"
+      "x0.75 Crimstone for Expansions (does not stack with Grinx's Hammer)",
+      "x0.95 Coins for Expansions"
     ]
   },
   "Big Bad Wolf": {
@@ -8700,6 +8700,12 @@
     "collection": "collectibles",
     "id": 3276,
     "image": "collectibles/3276.webp",
+    "boost": null
+  },
+  "Crystal Cookie Champion": {
+    "collection": "collectibles",
+    "id": 3277,
+    "image": "collectibles/3277.webp",
     "boost": null
   },
   "Pumpkin Soup": {
@@ -9459,7 +9465,7 @@
     "id": 27,
     "image": "wearables/27.webp",
     "boost": [
-      "+10% Sunflower"
+      "x1.1 Sunflower"
     ]
   },
   "Carrot Amulet (wearables)": {
@@ -9475,7 +9481,7 @@
     "id": 29,
     "image": "wearables/29.webp",
     "boost": [
-      "+20% Beetroot"
+      "x1.2 Beetroot"
     ]
   },
   "Green Amulet (wearables)": {
@@ -9643,7 +9649,7 @@
     "id": 56,
     "image": "wearables/56.webp",
     "boost": [
-      "+20% Parsnip"
+      "x1.2 Parsnip"
     ]
   },
   "Jail Background": {
@@ -9657,7 +9663,7 @@
     "id": 58,
     "image": "wearables/58.webp",
     "boost": [
-      "+10% Bumpkin XP"
+      "x1.1 Bumpkin XP"
     ]
   },
   "Artist Scarf": {
@@ -10736,7 +10742,9 @@
     "collection": "wearables",
     "id": 232,
     "image": "wearables/232.webp",
-    "boost": null
+    "boost": [
+      "x0.8 Fish Aging Time"
+    ]
   },
   "Fishing Pants": {
     "collection": "wearables",
@@ -11269,7 +11277,7 @@
     "id": 314,
     "image": "wearables/314.webp",
     "boost": [
-      "+25% Bumpkin XP"
+      "x1.25 Bumpkin XP"
     ]
   },
   "Soybean Onesie": {
@@ -11979,7 +11987,7 @@
     "id": 413,
     "image": "wearables/413.webp",
     "boost": [
-      "-50% Oil to plant Rice",
+      "x0.5 Oil to plant Rice",
       "+1 Rice"
     ]
   },
@@ -12416,7 +12424,7 @@
     "id": 480,
     "image": "wearables/480.webp",
     "boost": [
-      "-50% Potion House fee"
+      "x0.5 Potion House fee"
     ]
   },
   "Lava Swimwear": {
@@ -13022,7 +13030,7 @@
     "id": 576,
     "image": "wearables/576.webp",
     "boost": [
-      "-10% Power Skill Cooldown"
+      "x0.9 Power Skill Cooldown"
     ]
   },
   "Ascension Wings": {
@@ -13089,7 +13097,7 @@
     "id": 586,
     "image": "wearables/586.webp",
     "boost": [
-      "-50% Salt cost for aging fish"
+      "x0.5 Salt cost for aging fish"
     ]
   },
   "Traveling Merchant Suit": {
@@ -13142,7 +13150,7 @@
     "id": 594,
     "image": "wearables/594.webp",
     "boost": [
-      "-25% Obsidian for Expansions (does not stack with Grinx's Hammer)"
+      "x0.75 Obsidian for Expansions (does not stack with Grinx's Hammer)"
     ]
   },
   "Pig Onesie": {
@@ -13150,7 +13158,7 @@
     "id": 595,
     "image": "wearables/595.webp",
     "boost": [
-      "+5% Animal Feed XP"
+      "x1.05 Animal Feed XP"
     ]
   },
   "Sky Tearer Wings": {
