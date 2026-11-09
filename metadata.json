@@ -1355,7 +1355,7 @@
     "id": 461,
     "image": "collectibles/461.png",
     "boost": [
-      "+0.5 Wheat, Radish, Kale, Rice, Barley"
+      "+0.5 Overnight Crops"
     ]
   },
   "Basic Scarecrow": {
@@ -8579,8 +8579,8 @@
     "image": "collectibles/3111.webp",
     "boost": [
       "x0.9 Expansion Resources",
-      "x0.9 Expansion Time",
-      "Disabled if Grinx's Hammer Active"
+      "Resource discount disabled if Grinx's Hammer Active",
+      "x0.9 Expansion Time"
     ]
   },
   "Spooky Bed": {
@@ -8627,8 +8627,8 @@
     "image": "collectibles/3117.webp",
     "boost": [
       "x0.75 Oil for Expansions",
-      "x0.9 Expansion Time",
-      "Disabled if Grinx's Hammer Active"
+      "Oil discount disabled if Grinx's Hammer Active",
+      "x0.9 Expansion Time"
     ]
   },
   "Brick House": {
@@ -8637,8 +8637,8 @@
     "image": "collectibles/3118.webp",
     "boost": [
       "x0.75 Crimstone for Expansions",
-      "x0.95 Coins for Expansions",
-      "Disabled if Grinx's Hammer Active"
+      "Crimstone discount disabled if Grinx's Hammer Active",
+      "x0.95 Coins for Expansions"
     ]
   },
   "Big Bad Wolf": {
@@ -8690,7 +8690,8 @@
     "id": 3274,
     "image": "collectibles/3274.webp",
     "boost": [
-      "1/3 chance of +1 Desert Treasure"
+      "1/3 chance of +1 Desert Treasure",
+      "Does not affect Chapter Artefacts"
     ]
   },
   "TNT": {
@@ -13154,7 +13155,7 @@
     "image": "wearables/594.webp",
     "boost": [
       "x0.75 Obsidian for Expansions",
-      "Disabled if Grinx's Hammer Active"
+      "Obsidian discount disabled if Grinx's Hammer Active"
     ]
   },
   "Pig Onesie": {
